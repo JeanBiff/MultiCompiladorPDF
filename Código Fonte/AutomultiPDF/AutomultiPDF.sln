@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.34526.175
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiCompiladorPDF", "AutomultiPDF\MultiCompiladorPDF.csproj", "{A04D6EE8-B197-46F3-AF73-AE1B3F622775}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceVisual", "InterfaceVisual\InterfaceVisual.csproj", "{64769C26-FA66-4C3E-9F22-394959096C13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "itextsharp", "itext-itextsharp-d598d5a\src\core\itextsharp.csproj", "{84C4FDD9-3ED7-453B-B9DA-B3ED52CB071C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug_woDrawing|Any CPU = Debug_woDrawing|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release_woDrawing|Any CPU = Release_woDrawing|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A04D6EE8-B197-46F3-AF73-AE1B3F622775}.Debug_woDrawing|Any CPU.ActiveCfg = Debug|Any CPU
+		{A04D6EE8-B197-46F3-AF73-AE1B3F622775}.Debug_woDrawing|Any CPU.Build.0 = Debug|Any CPU
+		{A04D6EE8-B197-46F3-AF73-AE1B3F622775}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A04D6EE8-B197-46F3-AF73-AE1B3F622775}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A04D6EE8-B197-46F3-AF73-AE1B3F622775}.Release_woDrawing|Any CPU.ActiveCfg = Release|Any CPU
+		{A04D6EE8-B197-46F3-AF73-AE1B3F622775}.Release_woDrawing|Any CPU.Build.0 = Release|Any CPU
+		{A04D6EE8-B197-46F3-AF73-AE1B3F622775}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A04D6EE8-B197-46F3-AF73-AE1B3F622775}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64769C26-FA66-4C3E-9F22-394959096C13}.Debug_woDrawing|Any CPU.ActiveCfg = Debug|Any CPU
+		{64769C26-FA66-4C3E-9F22-394959096C13}.Debug_woDrawing|Any CPU.Build.0 = Debug|Any CPU
+		{64769C26-FA66-4C3E-9F22-394959096C13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64769C26-FA66-4C3E-9F22-394959096C13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64769C26-FA66-4C3E-9F22-394959096C13}.Release_woDrawing|Any CPU.ActiveCfg = Release|Any CPU
+		{64769C26-FA66-4C3E-9F22-394959096C13}.Release_woDrawing|Any CPU.Build.0 = Release|Any CPU
+		{64769C26-FA66-4C3E-9F22-394959096C13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64769C26-FA66-4C3E-9F22-394959096C13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84C4FDD9-3ED7-453B-B9DA-B3ED52CB071C}.Debug_woDrawing|Any CPU.ActiveCfg = Debug_woDrawing|Any CPU
+		{84C4FDD9-3ED7-453B-B9DA-B3ED52CB071C}.Debug_woDrawing|Any CPU.Build.0 = Debug_woDrawing|Any CPU
+		{84C4FDD9-3ED7-453B-B9DA-B3ED52CB071C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84C4FDD9-3ED7-453B-B9DA-B3ED52CB071C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84C4FDD9-3ED7-453B-B9DA-B3ED52CB071C}.Release_woDrawing|Any CPU.ActiveCfg = Release_woDrawing|Any CPU
+		{84C4FDD9-3ED7-453B-B9DA-B3ED52CB071C}.Release_woDrawing|Any CPU.Build.0 = Release_woDrawing|Any CPU
+		{84C4FDD9-3ED7-453B-B9DA-B3ED52CB071C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84C4FDD9-3ED7-453B-B9DA-B3ED52CB071C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23718E25-3AC9-4802-AF6C-EF22DE4839C0}
+	EndGlobalSection
+EndGlobal
