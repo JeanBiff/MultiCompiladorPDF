@@ -1,0 +1,10 @@
+D:\C# Projs\AutomultiPDF\AutomultiPDF\InterfaceVisual\bin\Debug\InterfaceVisual.exe.config
+D:\C# Projs\AutomultiPDF\AutomultiPDF\InterfaceVisual\bin\Debug\InterfaceVisual.exe
+D:\C# Projs\AutomultiPDF\AutomultiPDF\InterfaceVisual\bin\Debug\InterfaceVisual.pdb
+D:\C# Projs\AutomultiPDF\AutomultiPDF\InterfaceVisual\obj\Debug\InterfaceVisual.csprojAssemblyReference.cache
+D:\C# Projs\AutomultiPDF\AutomultiPDF\InterfaceVisual\obj\Debug\InterfaceVisual.Properties.Resources.resources
+D:\C# Projs\AutomultiPDF\AutomultiPDF\InterfaceVisual\obj\Debug\InterfaceVisual.csproj.GenerateResource.cache
+D:\C# Projs\AutomultiPDF\AutomultiPDF\InterfaceVisual\obj\Debug\InterfaceVisual.csproj.CoreCompileInputs.cache
+D:\C# Projs\AutomultiPDF\AutomultiPDF\InterfaceVisual\obj\Debug\InterfaceVisual.exe
+D:\C# Projs\AutomultiPDF\AutomultiPDF\InterfaceVisual\obj\Debug\InterfaceVisual.pdb
+D:\C# Projs\AutomultiPDF\AutomultiPDF\InterfaceVisual\obj\Debug\InterfaceVisual.InterfaceVisual.resources

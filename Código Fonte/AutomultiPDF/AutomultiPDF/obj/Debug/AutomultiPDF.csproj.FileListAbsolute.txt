@@ -1,0 +1,16 @@
+D:\C# Projs\AutomultiPDF\AutomultiPDF\AutomultiPDF\bin\Debug\itextsharp.dll
+D:\C# Projs\AutomultiPDF\AutomultiPDF\AutomultiPDF\bin\Debug\BouncyCastle.Crypto.dll
+D:\C# Projs\AutomultiPDF\AutomultiPDF\AutomultiPDF\bin\Debug\itextsharp.pdb
+D:\C# Projs\AutomultiPDF\AutomultiPDF\AutomultiPDF\bin\Debug\itextsharp.xml
+D:\C# Projs\AutomultiPDF\AutomultiPDF\AutomultiPDF\obj\Debug\AutomultiPDF.csprojAssemblyReference.cache
+D:\C# Projs\AutomultiPDF\AutomultiPDF\AutomultiPDF\obj\Debug\AutomultiPDF.csproj.CoreCompileInputs.cache
+D:\C# Projs\AutomultiPDF\AutomultiPDF\AutomultiPDF\obj\Debug\AutomultiPDF.csproj.CopyComplete
+D:\C# Projs\AutomultiPDF\AutomultiPDF\AutomultiPDF\bin\Debug\MultiCompiladorPDF.exe.config
+D:\C# Projs\AutomultiPDF\AutomultiPDF\AutomultiPDF\bin\Debug\MultiCompiladorPDF.exe
+D:\C# Projs\AutomultiPDF\AutomultiPDF\AutomultiPDF\bin\Debug\MultiCompiladorPDF.pdb
+D:\C# Projs\AutomultiPDF\AutomultiPDF\AutomultiPDF\obj\Debug\MultiCompiladorPDF.exe
+D:\C# Projs\AutomultiPDF\AutomultiPDF\AutomultiPDF\obj\Debug\MultiCompiladorPDF.pdb
+D:\C# Projs\AutomultiPDF\AutomultiPDF\AutomultiPDF\bin\Debug\MultiCompiladorPDF.exe.manifest
+D:\C# Projs\AutomultiPDF\AutomultiPDF\AutomultiPDF\bin\Debug\MultiCompiladorPDF.application
+D:\C# Projs\AutomultiPDF\AutomultiPDF\AutomultiPDF\obj\Debug\MultiCompiladorPDF.exe.manifest
+D:\C# Projs\AutomultiPDF\AutomultiPDF\AutomultiPDF\obj\Debug\MultiCompiladorPDF.application
