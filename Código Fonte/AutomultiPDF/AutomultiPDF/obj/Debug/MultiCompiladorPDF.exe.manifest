@@ -55,14 +55,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="InterfaceVisual.exe" size="9216">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="InterfaceVisual.exe" size="167936">
       <assemblyIdentity name="InterfaceVisual" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>UKwjvwV0jCU+F2U8xsP9uoOJHq43HXBRRldj1GH1USg=</dsig:DigestValue>
+        <dsig:DigestValue>8iYC+9wt6lCwi9hRSbTBBTytikKwMRd6JXAwjM9aGJg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -86,7 +86,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>deycRSExdFxdgrql+CrcwIKTpGftKJLos0RGfVnA03w=</dsig:DigestValue>
+        <dsig:DigestValue>s1OwdZE2Pzeg0h6OEofUdG/jEKr+n6mrPUfLlFSjUW0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

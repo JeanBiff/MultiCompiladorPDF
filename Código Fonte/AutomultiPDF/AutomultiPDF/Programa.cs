@@ -7,9 +7,9 @@ using System.Configuration;
 
 class Program
 {
-    static bool usingForms = false;
-    static bool userDefinableFolderName = false;
-    static InterfaceVisual.InterfaceVisual interfaceVisual = new InterfaceVisual.InterfaceVisual();
+    static bool usingForms;
+    static bool userDefinableFolderName;
+    static readonly InterfaceVisual.InterfaceVisual interfaceVisual = new InterfaceVisual.InterfaceVisual();
 
     [STAThread]
     static void Main(string[] args)
@@ -17,45 +17,56 @@ class Program
         bool u_userDefinableFolderName = Convert.ToBoolean(ConfigurationManager.AppSettings["UserDefinableFolderName"]);
         bool u_usingForms = Convert.ToBoolean(ConfigurationManager.AppSettings["UsingForms"]);
 
+
         usingForms = u_usingForms;
         userDefinableFolderName = u_userDefinableFolderName;
+
+        bool runAgain = true;
 
         if (!usingForms)
         {
             Console.Title = ("MultiCompiladorPDF");
             Console.ForegroundColor = ConsoleColor.Blue;
-            Console.Clear();
-            LogoPage();
 
-            string outputFolderName = "0_MANUAL COMPLETO";
-            if (userDefinableFolderName)
-            {
-                Console.Write(">> Nome da pasta: ");
-                outputFolderName = Console.ReadLine();
-                Console.Clear();
-                LogoPage();
-            }
-
-            Console.Write(">> Pasta raíz: ");
-            string rootFolder = Console.ReadLine();
-
-            while (string.IsNullOrEmpty(rootFolder) || !Directory.Exists(rootFolder))
+            while (runAgain)
             {
                 Console.Clear();
                 LogoPage();
-                Console.Write(">> Inválido, digite novamete: ");
-                rootFolder = Console.ReadLine();
+                string outputFolderName = "0_MANUAL COMPLETO";
+                if (userDefinableFolderName)
+                {
+                    Console.Write(">> Nome da pasta: ");
+                    outputFolderName = Console.ReadLine();
+                    Console.Clear();
+                    LogoPage();
+                }
+
+
+                Console.Write(">> Pasta raíz: ");
+                string rootFolder = Console.ReadLine();
+
+                while (string.IsNullOrEmpty(rootFolder) || !Directory.Exists(rootFolder))
+                {
+                    Console.Clear();
+                    LogoPage();
+                    Console.Write(">> Inválido, digite novamete: ");
+                    rootFolder = Console.ReadLine();
+                }
+
+                string outputFolder = Path.Combine(rootFolder, outputFolderName);
+                Directory.CreateDirectory(outputFolder);
+
+                ProcessFolders(rootFolder, outputFolder);
+
+                Console.Clear();
+                LogoPage();
+                Console.Write(">> Projetos compilados com sucesso. Deseja compilar outro? (S/N): ");
+                string answer = Console.ReadLine();
+                if (answer == "n" || answer == "N")
+                {
+                    runAgain = false;
+                }
             }
-
-            string outputFolder = Path.Combine(rootFolder, outputFolderName);
-            Directory.CreateDirectory(outputFolder);
-
-            ProcessFolders(rootFolder, outputFolder);
-
-            Console.Clear();
-            LogoPage();
-            Console.WriteLine(">> Projetos compilados com sucesso.");
-            Console.ReadKey();
         }
         else
         {
@@ -83,6 +94,7 @@ class Program
 
     static void MergePDFs(string[] filesToMerge, string outputFilePath)
     {
+        Loading();
         using (FileStream stream = new FileStream(outputFilePath, FileMode.Create))
         {
             Document document = new Document();
@@ -99,7 +111,6 @@ class Program
             pdf.Close();
             document.Close();
         }
-        Loading();
     }
     
     static void LogoPage()
@@ -130,6 +141,4 @@ class Program
         Console.Write("");
         Console.SetCursorPosition(0, Console.CursorTop);
     }
-
-
 }

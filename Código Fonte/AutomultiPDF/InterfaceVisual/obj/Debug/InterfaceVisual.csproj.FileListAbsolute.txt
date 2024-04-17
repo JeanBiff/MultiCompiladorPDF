@@ -8,3 +8,8 @@ D:\C# Projs\AutomultiPDF\AutomultiPDF\InterfaceVisual\obj\Debug\InterfaceVisual.
 D:\C# Projs\AutomultiPDF\AutomultiPDF\InterfaceVisual\obj\Debug\InterfaceVisual.exe
 D:\C# Projs\AutomultiPDF\AutomultiPDF\InterfaceVisual\obj\Debug\InterfaceVisual.pdb
 D:\C# Projs\AutomultiPDF\AutomultiPDF\InterfaceVisual\obj\Debug\InterfaceVisual.InterfaceVisual.resources
+D:\C# Projs\AutomultiPDF\AutomultiPDF\InterfaceVisual\bin\Debug\itextsharp.dll
+D:\C# Projs\AutomultiPDF\AutomultiPDF\InterfaceVisual\bin\Debug\BouncyCastle.Crypto.dll
+D:\C# Projs\AutomultiPDF\AutomultiPDF\InterfaceVisual\bin\Debug\itextsharp.pdb
+D:\C# Projs\AutomultiPDF\AutomultiPDF\InterfaceVisual\bin\Debug\itextsharp.xml
+D:\C# Projs\AutomultiPDF\AutomultiPDF\InterfaceVisual\obj\Debug\InterfaceVisual.csproj.CopyComplete
